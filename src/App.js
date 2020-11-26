@@ -1,4 +1,4 @@
-import React,{useContext,useState} from "react";
+import React,{useContext} from "react";
 import Navbar from "./components/Navbar";
 import Herosection from "./components/Herosection";
 import "./App.css";
