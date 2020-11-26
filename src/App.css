@@ -63,6 +63,7 @@
   .App{
       display: flex;
       flex-direction: column;
+
   }
   .themeSwitch{
     position: fixed;
@@ -70,6 +71,7 @@
     bottom: 5%;
     width: 100%;
     margin-left: -30px;
+    
   }
 /* 
   @media screen and (min-width:480px){
