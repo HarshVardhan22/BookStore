@@ -17,17 +17,19 @@ const App = () =>{
 
  
   return (
-    
+   
     <div className="App">
         <Navbar></Navbar>
         <Herosection/>
         <div className="themeSwitch" onChange = {toggler}>
-        <label className="switch">
-         <input type="checkbox"/>
-         <span className="slider round"></span>
-         </label> 
-         </div>
+        
+          <label className="switch">
+            <input type="checkbox"/>
+            <span className="slider round"></span>
+          </label> 
+        </div>
     </div>
+    
   );
 }
 
