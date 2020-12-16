@@ -1,8 +1,8 @@
 import React, {useContext} from "react";
-import "./Herosection.css";
+import "./FindBook.css";
 import {ThemeContext} from "./themeContext";
 
-const Herosection = () =>{
+const FindBook = () =>{
 
     const fromContext = useContext(ThemeContext);
     const theme = fromContext.theme;
@@ -16,4 +16,4 @@ const Herosection = () =>{
 
 }
 
-export default Herosection;
+export default FindBook;

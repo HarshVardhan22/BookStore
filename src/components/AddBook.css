@@ -40,7 +40,11 @@ input:focus{
 .search{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 10%;
+}
+
+.inputField>*{
+    margin: 10px;
 }

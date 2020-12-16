@@ -1,8 +1,7 @@
 import React,{useContext} from "react";
-import Navbar from "./components/Navbar";
-import Herosection from "./components/Herosection";
 import "./App.css";
-import {ThemeContext} from './components/themeContext'
+import {ThemeContext} from './components/themeContext';
+
 
 
 const App = () =>{
@@ -17,19 +16,14 @@ const App = () =>{
 
  
   return (
-   
-    <div className="App">
-        <Navbar></Navbar>
-        <Herosection/>
-        <div className="themeSwitch" onChange = {toggler}>
-        
-          <label className="switch">
-            <input type="checkbox"/>
-            <span className="slider round"></span>
-          </label> 
-        </div>
+    <div className="App"> 
+      <div className="themeSwitch" onChange={toggler}>
+        <label className="switch">
+          <input type="checkbox" />
+          <span className="slider round"></span>
+        </label>
+      </div>
     </div>
-    
   );
 }
 
